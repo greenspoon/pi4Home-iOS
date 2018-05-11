@@ -1,0 +1,993 @@
+2018-05-07 10:36:32 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fbffc372dd0; archive(resolved)='<IDEArchive: 0x7fbffc772f00>', distributionTask(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fbffc372dd0; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fbfdf0b55b0; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbfdf1c3710; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffc49c4f0; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffbd1d490; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffc2e0ec0; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffb2f38e0; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffbf5d810; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffda6c940; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffc257f10; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='<IDEDistributionMethodiOSAppStoreDistribution: 0x7fbffc6df9d0>', team='<IDEProvisioningBasicTeam: 0x7fbffda8b930; teamID='5ES55SHH2E', teamName='Josef Grinspun'>'>
+	<IDEDistributionContext: 0x7fbffc1c8140; archive = '<IDEArchive: 0x7fbffc772f00>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fbffc372dd0>
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionCopyItemStep
+2018-05-07 10:36:32 +0000  Running /usr/bin/ditto '-V' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app'
+2018-05-07 10:36:32 +0000  >>> Copying /Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app 
+2018-05-07 10:36:32 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-05-07 10:36:32 +0000  10021 bytes for ./_CodeSignature/CodeResources
+2018-05-07 10:36:32 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-05-07 10:36:32 +0000  982 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-05-07 10:36:32 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-07 10:36:32 +0000  5865 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-07 10:36:32 +0000  258 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-05-07 10:36:32 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-07 10:36:32 +0000  6159 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-07 10:36:32 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-05-07 10:36:32 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-05-07 10:36:32 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Assets.car ... 
+2018-05-07 10:36:32 +0000  31144 bytes for ./Assets.car
+copying file ./pi4HomeApp ... 
+2018-05-07 10:36:32 +0000  219680 bytes for ./pi4HomeApp
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/libswiftCoreImage.dylib ... 
+2018-05-07 10:36:32 +0000  307648 bytes for ./Frameworks/libswiftCoreImage.dylib
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-07 10:36:32 +0000  554112 bytes for ./Frameworks/libswiftObjectiveC.dylib
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/libswiftCore.dylib ... 
+2018-05-07 10:36:32 +0000  66629584 bytes for ./Frameworks/libswiftCore.dylib
+copying file ./Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-07 10:36:32 +0000  1628560 bytes for ./Frameworks/libswiftCoreGraphics.dylib
+copying file ./Frameworks/libswiftUIKit.dylib ... 
+1043040 bytes for ./Frameworks/libswiftUIKit.dylib
+copying file ./Frameworks/libswiftMetal.dylib ... 
+448896 bytes for ./Frameworks/libswiftMetal.dylib
+copying file ./Frameworks/libswiftDispatch.dylib ... 
+2018-05-07 10:36:32 +0000  2722304 bytes for ./Frameworks/libswiftDispatch.dylib
+copying file ./Frameworks/libswiftos.dylib ... 
+2018-05-07 10:36:32 +0000  497168 bytes for ./Frameworks/libswiftos.dylib
+copying file ./Frameworks/libswiftCoreFoundation.dylib ... 
+257744 bytes for ./Frameworks/libswiftCoreFoundation.dylib
+copying file ./Frameworks/libswiftDarwin.dylib ... 
+2018-05-07 10:36:32 +0000  838736 bytes for ./Frameworks/libswiftDarwin.dylib
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-07 10:36:32 +0000  310624 bytes for ./Frameworks/libswiftQuartzCore.dylib
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2018-05-07 10:36:32 +0000  2202 bytes for ./Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/Alamofire.framework/Alamofire ... 
+2018-05-07 10:36:32 +0000  3801840 bytes for ./Frameworks/Alamofire.framework/Alamofire
+2018-05-07 10:36:32 +0000  copying file ./Frameworks/Alamofire.framework/Info.plist ... 
+740 bytes for ./Frameworks/Alamofire.framework/Info.plist
+copying file ./Frameworks/libswiftFoundation.dylib ... 
+2018-05-07 10:36:32 +0000  30131392 bytes for ./Frameworks/libswiftFoundation.dylib
+2018-05-07 10:36:32 +0000  2018-05-07 10:36:32 +0000  /usr/bin/ditto exited with 0
+
+2018-05-07 10:36:32 +0000  copying file ./embedded.mobileprovision ... 
+9591 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+1105 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+8 bytes for ./PkgInfo
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffda59e00 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fbffc6db430:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/Alamofire.framework'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc2f5ad0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbffc782e60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffda753e0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbffc2c2c30:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc70b4a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbffc44e1e0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc3c4be0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbffc0062d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc2f0d60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbffc2bea50:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffb146a70 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbffc2bc050:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc2c93a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbffc63c240:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbff7711880 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbffb866f60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffc116300 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbffc0019d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffb72c180 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbffc2bd370:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbfdf0595b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbffda69a20:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-07 10:36:32 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fbffda563b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbffc2c3390:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftos.dylib'>'>
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionItemRemovalStep
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-05-07 10:36:32 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-05-07 10:36:32 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2018-05-07 10:36:32 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-05-07 10:36:33 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-05-07 10:36:33 +0000  Running /usr/bin/ditto '-V' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/BCSymbolMaps/0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/BCSymbolMaps/0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap'
+2018-05-07 10:36:33 +0000  >>> Copying /Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/BCSymbolMaps/0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap 
+2018-05-07 10:36:33 +0000  copying file ./0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap ... 
+2018-05-07 10:36:33 +0000  305933 bytes for ./0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/ditto exited with 0
+2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  Running /usr/bin/ditto '-V' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/BCSymbolMaps/723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/BCSymbolMaps/723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap'
+2018-05-07 10:36:33 +0000  >>> Copying /Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/BCSymbolMaps/723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap 
+2018-05-07 10:36:33 +0000  copying file ./723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap ... 
+2018-05-07 10:36:33 +0000  19588 bytes for ./723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  /usr/bin/ditto exited with 02018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Processing step: IDEDistributionSymbolsStep
+2018-05-07 10:36:33 +0000  Excluding symbols for Alamofire.framework
+2018-05-07 10:36:33 +0000  Processing symbols for libswiftCore.dylib
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  1 file to consider
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  sent 98 bytes  received 20 bytes  236.00 bytes/sec
+total size is 63.54M  speedup is 564657.49
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  13 files to consider
+2018-05-07 10:36:33 +0000  ./
+2018-05-07 10:36:33 +0000  Alamofire.framework.dSYM/
+2018-05-07 10:36:33 +0000  Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  sent 462 bytes  received 74 bytes  1.05K bytes/sec
+total size is 3.73M  speedup is 7292.44
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCore.dylib'
+2018-05-07 10:36:33 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCore.dylib [armv7, 0.268603 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCore.dylib [armv7s, 0.268603 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCore.dylib [arm64, 0.268603 seconds]:
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  Processing symbols for libswiftCoreFoundation.dylib
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  1 file to consider
+2018-05-07 10:36:33 +0000  
+sent 108 bytes  received 20 bytes  256.00 bytes/sec
+2018-05-07 10:36:33 +0000  total size is 251.70K  speedup is 2013.62
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  13 files to consider
+2018-05-07 10:36:33 +0000  ./
+2018-05-07 10:36:33 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:33 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreFoundation.dylib'
+2018-05-07 10:36:33 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreFoundation.dylib [armv7, 0.001359 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreFoundation.dylib [armv7s, 0.001359 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreFoundation.dylib [arm64, 0.001359 seconds]:
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Processing symbols for libswiftCoreGraphics.dylib
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  1 file to consider
+2018-05-07 10:36:33 +0000  
+sent 106 bytes  received 20 bytes  252.00 bytes/sec
+total size is 1.55M  speedup is 12925.08
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  13 files to consider
+2018-05-07 10:36:33 +0000  ./
+2018-05-07 10:36:33 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:33 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreGraphics.dylib'
+2018-05-07 10:36:33 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreGraphics.dylib [armv7, 0.009120 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreGraphics.dylib [armv7s, 0.009120 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreGraphics.dylib [arm64, 0.009120 seconds]:
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Processing symbols for libswiftCoreImage.dylib
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  1 file to consider
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  sent 103 bytes  received 20 bytes  246.00 bytes/sec
+total size is 300.44K  speedup is 2501.20
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:33 +0000  13 files to consider
+2018-05-07 10:36:33 +0000  ./
+2018-05-07 10:36:33 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:33 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+2018-05-07 10:36:33 +0000  total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:33 +0000  
+
+
+2018-05-07 10:36:33 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreImage.dylib'
+2018-05-07 10:36:33 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreImage.dylib [armv7, 0.001208 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreImage.dylib [armv7s, 0.001208 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftCoreImage.dylib [arm64, 0.001208 seconds]:
+2018-05-07 10:36:33 +0000  2018-05-07 10:36:33 +0000  
+
+2018-05-07 10:36:33 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  
+2018-05-07 10:36:33 +0000  Processing symbols for libswiftDarwin.dylib
+2018-05-07 10:36:33 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:33 +0000  building file list ... 
+2018-05-07 10:36:33 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+sent 100 bytes  received 20 bytes  80.00 bytes/sec
+total size is 819.08K  speedup is 6989.47
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDarwin.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDarwin.dylib [armv7, 0.004813 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDarwin.dylib [armv7s, 0.004813 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDarwin.dylib [arm64, 0.004813 seconds]:
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftDispatch.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+sent 102 bytes  received 20 bytes  244.00 bytes/sec
+2018-05-07 10:36:34 +0000  total size is 2.60M  speedup is 22313.97
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDispatch.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDispatch.dylib [armv7, 0.016572 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDispatch.dylib [armv7s, 0.016572 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftDispatch.dylib [arm64, 0.016572 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftFoundation.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 28.74M  speedup is 242995.10
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+2018-05-07 10:36:34 +0000  total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftFoundation.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftFoundation.dylib [armv7, 0.106389 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftFoundation.dylib [armv7s, 0.106389 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftFoundation.dylib [arm64, 0.106389 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftMetal.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 438.38K  speedup is 3772.24
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftMetal.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftMetal.dylib [armv7, 0.001989 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftMetal.dylib [armv7s, 0.001989 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftMetal.dylib [arm64, 0.001989 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftObjectiveC.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+sent 104 bytes  received 20 bytes  248.00 bytes/sec
+2018-05-07 10:36:34 +0000  total size is 541.12K  speedup is 4468.65
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+2018-05-07 10:36:34 +0000  total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftObjectiveC.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftObjectiveC.dylib [armv7, 0.002763 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftObjectiveC.dylib [armv7s, 0.002763 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftObjectiveC.dylib [arm64, 0.002763 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftQuartzCore.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 104 bytes  received 20 bytes  248.00 bytes/sec
+total size is 303.34K  speedup is 2505.03
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftQuartzCore.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftQuartzCore.dylib [armv7, 0.001594 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftQuartzCore.dylib [armv7s, 0.001594 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftQuartzCore.dylib [arm64, 0.001594 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftUIKit.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 99 bytes  received 20 bytes  238.00 bytes/sec
+total size is 1018.59K  speedup is 8765.04
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftUIKit.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftUIKit.dylib [armv7, 0.005177 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftUIKit.dylib [armv7s, 0.005177 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftUIKit.dylib [arm64, 0.005177 seconds]:
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Processing symbols for libswiftos.dylib
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  1 file to consider
+2018-05-07 10:36:34 +0000  
+sent 96 bytes  received 20 bytes  232.00 bytes/sec
+2018-05-07 10:36:34 +0000  total size is 485.52K  speedup is 4285.93
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /usr/bin/rsync '-8aPhhE' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '--link-dest' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/dSYMs/' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1'
+2018-05-07 10:36:34 +0000  building file list ... 
+2018-05-07 10:36:34 +0000   0 files...2018-05-07 10:36:34 +0000  13 files to consider
+2018-05-07 10:36:34 +0000  ./
+2018-05-07 10:36:34 +0000  Alamofire.framework.dSYM/
+Alamofire.framework.dSYM/Contents/
+Alamofire.framework.dSYM/Contents/Resources/
+Alamofire.framework.dSYM/Contents/Resources/DWARF/
+pi4HomeApp.app.dSYM/
+pi4HomeApp.app.dSYM/Contents/
+pi4HomeApp.app.dSYM/Contents/Resources/
+pi4HomeApp.app.dSYM/Contents/Resources/DWARF/
+2018-05-07 10:36:34 +0000  
+sent 486 bytes  received 98 bytes  1.14K bytes/sec
+total size is 3.73M  speedup is 6693.06
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /usr/bin/rsync exited with 02018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/symbols '-noTextInSOD' '-noDaemon' '-arch' 'all' '-symbolsPackageDir' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftos.dylib'
+2018-05-07 10:36:34 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftos.dylib [armv7, 0.002073 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftos.dylib [armv7s, 0.002073 seconds]:
+/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/libswiftos.dylib [arm64, 0.002073 seconds]:
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with 0
+
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  Excluding symbols for pi4HomeApp.app
+2018-05-07 10:36:34 +0000  Processing step: IDEDistributionCopyAppleProvidedContentStep
+2018-05-07 10:36:34 +0000  Running /usr/bin/ditto '-V' '/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/SwiftSupport' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/SwiftSupport'
+2018-05-07 10:36:34 +0000  >>> Copying /Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/SwiftSupport 
+2018-05-07 10:36:34 +0000  copying file ./iphoneos/libswiftCoreImage.dylib ... 
+2018-05-07 10:36:34 +0000  351529 bytes for ./iphoneos/libswiftCoreImage.dylib
+copying file ./iphoneos/libswiftObjectiveC.dylib ... 
+2018-05-07 10:36:34 +0000  737121 bytes for ./iphoneos/libswiftObjectiveC.dylib
+copying file ./iphoneos/libswiftCore.dylib ... 
+2018-05-07 10:36:34 +0000  96713490 bytes for ./iphoneos/libswiftCore.dylib
+copying file ./iphoneos/libswiftCoreGraphics.dylib ... 
+2018-05-07 10:36:34 +0000  2199570 bytes for ./iphoneos/libswiftCoreGraphics.dylib
+copying file ./iphoneos/libswiftUIKit.dylib ... 
+2018-05-07 10:36:34 +0000  1410757 bytes for ./iphoneos/libswiftUIKit.dylib
+2018-05-07 10:36:34 +0000  copying file ./iphoneos/libswiftMetal.dylib ... 
+2018-05-07 10:36:34 +0000  558438 bytes for ./iphoneos/libswiftMetal.dylib
+copying file ./iphoneos/libswiftDispatch.dylib ... 
+2018-05-07 10:36:34 +0000  3697961 bytes for ./iphoneos/libswiftDispatch.dylib
+copying file ./iphoneos/libswiftos.dylib ... 
+2018-05-07 10:36:34 +0000  656415 bytes for ./iphoneos/libswiftos.dylib
+copying file ./iphoneos/libswiftCoreFoundation.dylib ... 
+2018-05-07 10:36:34 +0000  288225 bytes for ./iphoneos/libswiftCoreFoundation.dylib
+copying file ./iphoneos/libswiftDarwin.dylib ... 
+2018-05-07 10:36:34 +0000  1091344 bytes for ./iphoneos/libswiftDarwin.dylib
+copying file ./iphoneos/libswiftQuartzCore.dylib ... 
+2018-05-07 10:36:34 +0000  369774 bytes for ./iphoneos/libswiftQuartzCore.dylib
+copying file ./iphoneos/libswiftFoundation.dylib ... 
+2018-05-07 10:36:34 +0000  43073646 bytes for ./iphoneos/libswiftFoundation.dylib
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  
+
+2018-05-07 10:36:34 +0000  /usr/bin/ditto exited with 0
+2018-05-07 10:36:34 +0000  
+2018-05-07 10:36:34 +0000  2018-05-07 10:36:34 +0000  Processing step: IDEDistributionAppThinningStep
+
+2018-05-07 10:36:34 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-05-07 10:36:34 +0000  Processing step: IDEDistributionODRStep
+2018-05-07 10:36:34 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffda59e00 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fbffc6db430:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/Alamofire.framework'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc2f5ad0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbffc782e60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCore.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffda753e0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbffc2c2c30:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc70b4a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbffc44e1e0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc3c4be0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbffc0062d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc2f0d60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbffc2bea50:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffb146a70 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbffc2bc050:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc2c93a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbffc63c240:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbff7711880 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbffb866f60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftMetal.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffc116300 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbffc0019d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffb72c180 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbffc2bd370:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbfdf0595b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbffda69a20:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib'>'>
+2018-05-07 10:36:34 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fbffda563b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbffc2c3390:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftos.dylib'>'>
+2018-05-07 10:36:34 +0000  Running /usr/bin/xattr '-crs' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app'
+2018-05-07 10:36:35 +0000  
+2018-05-07 10:36:35 +0000  2018-05-07 10:36:35 +0000  /usr/bin/xattr exited with 0
+
+2018-05-07 10:36:35 +0000  
+2018-05-07 10:36:35 +0000  
+2018-05-07 10:36:35 +0000  Processing step: IDEDistributionCodesignStep
+2018-05-07 10:36:35 +0000  Entitlements for <IDEDistributionItem: 0x7fbffda59e00 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fbffc6db430:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/Alamofire.framework'>'>: {
+}
+2018-05-07 10:36:35 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffda59e00 'org.cocoapods.Alamofire' '<DVTFilePath:0x7fbffc6db430:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/Alamofire.framework'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsiMcvsu
+2018-05-07 10:36:35 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsiMcvsu' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/Alamofire.framework'
+2018-05-07 10:36:48 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/Alamofire.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.Alamofire]
+2018-05-07 10:36:48 +0000  
+2018-05-07 10:36:48 +0000  2018-05-07 10:36:48 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:48 +0000  2018-05-07 10:36:48 +0000  
+
+2018-05-07 10:36:48 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc2f5ad0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbffc782e60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCore.dylib'>'>: {
+}
+2018-05-07 10:36:48 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc2f5ad0 'com.apple.dt.runtime.swiftCore' '<DVTFilePath:0x7fbffc782e60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCore.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementseDTVKZ
+2018-05-07 10:36:48 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementseDTVKZ' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib'
+2018-05-07 10:36:48 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib: replacing existing signature
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCore]
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  Entitlements for <IDEDistributionItem: 0x7fbffda753e0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbffc2c2c30:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib'>'>: {
+}
+2018-05-07 10:36:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffda753e0 'com.apple.dt.runtime.swiftCoreFoundation' '<DVTFilePath:0x7fbffc2c2c30:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlements4jMvla
+2018-05-07 10:36:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlements4jMvla' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib'
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib: replacing existing signature
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreFoundation]
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:49 +0000  
+
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc70b4a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbffc44e1e0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib'>'>: {
+}
+2018-05-07 10:36:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc70b4a0 'com.apple.dt.runtime.swiftCoreGraphics' '<DVTFilePath:0x7fbffc44e1e0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsBFchVf
+2018-05-07 10:36:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsBFchVf' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib'
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib: replacing existing signature
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreGraphics]
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc3c4be0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbffc0062d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib'>'>: {
+}
+2018-05-07 10:36:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc3c4be0 'com.apple.dt.runtime.swiftCoreImage' '<DVTFilePath:0x7fbffc0062d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsr0QuWs
+2018-05-07 10:36:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsr0QuWs' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib'
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib: replacing existing signature
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftCoreImage]
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  
+
+2018-05-07 10:36:49 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc2f0d60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbffc2bea50:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib'>'>: {
+}
+2018-05-07 10:36:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc2f0d60 'com.apple.dt.runtime.swiftDarwin' '<DVTFilePath:0x7fbffc2bea50:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsuDCqMt
+2018-05-07 10:36:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsuDCqMt' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib'
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib: replacing existing signature
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDarwin]
+2018-05-07 10:36:49 +0000  
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:49 +0000  2018-05-07 10:36:49 +0000  
+
+2018-05-07 10:36:49 +0000  Entitlements for <IDEDistributionItem: 0x7fbffb146a70 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbffc2bc050:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib'>'>: {
+}
+2018-05-07 10:36:49 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffb146a70 'com.apple.dt.runtime.swiftDispatch' '<DVTFilePath:0x7fbffc2bc050:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsOfuucD
+2018-05-07 10:36:49 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsOfuucD' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib'
+2018-05-07 10:36:49 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib: replacing existing signature
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftDispatch]
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  /usr/bin/codesign exited with 02018-05-07 10:36:50 +0000  
+2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc2c93a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbffc63c240:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib'>'>: {
+}
+2018-05-07 10:36:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc2c93a0 'com.apple.dt.runtime.swiftFoundation' '<DVTFilePath:0x7fbffc63c240:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsWADmR2
+2018-05-07 10:36:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsWADmR2' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib'
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib: replacing existing signature
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftFoundation]
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  Entitlements for <IDEDistributionItem: 0x7fbff7711880 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbffb866f60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftMetal.dylib'>'>: {
+}
+2018-05-07 10:36:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbff7711880 'com.apple.dt.runtime.swiftMetal' '<DVTFilePath:0x7fbffb866f60:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftMetal.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsoZPx4w
+2018-05-07 10:36:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsoZPx4w' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib'
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib: replacing existing signature
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftMetal]
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:50 +0000  
+2018-05-07 10:36:50 +0000  
+2018-05-07 10:36:50 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc116300 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbffc0019d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib'>'>: {
+}
+2018-05-07 10:36:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc116300 'com.apple.dt.runtime.swiftObjectiveC' '<DVTFilePath:0x7fbffc0019d0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsjuEiLG
+2018-05-07 10:36:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsjuEiLG' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib'
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib: replacing existing signature
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftObjectiveC]
+2018-05-07 10:36:50 +0000  
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  Entitlements for <IDEDistributionItem: 0x7fbffb72c180 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbffc2bd370:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib'>'>: {
+}
+2018-05-07 10:36:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffb72c180 'com.apple.dt.runtime.swiftQuartzCore' '<DVTFilePath:0x7fbffc2bd370:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsFUUjhK
+2018-05-07 10:36:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsFUUjhK' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib'
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib: replacing existing signature
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftQuartzCore]
+2018-05-07 10:36:50 +0000  
+2018-05-07 10:36:50 +0000  2018-05-07 10:36:50 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:50 +0000  
+
+2018-05-07 10:36:50 +0000  Entitlements for <IDEDistributionItem: 0x7fbfdf0595b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbffda69a20:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib'>'>: {
+}
+2018-05-07 10:36:50 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbfdf0595b0 'com.apple.dt.runtime.swiftUIKit' '<DVTFilePath:0x7fbffda69a20:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsSiC1dQ
+2018-05-07 10:36:50 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsSiC1dQ' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib'
+2018-05-07 10:36:50 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib: replacing existing signature
+2018-05-07 10:36:51 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftUIKit]
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  2018-05-07 10:36:51 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fbffda563b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbffc2c3390:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftos.dylib'>'>: {
+}
+2018-05-07 10:36:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffda563b0 'com.apple.dt.runtime.swiftos' '<DVTFilePath:0x7fbffc2c3390:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app/Frameworks/libswiftos.dylib'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsx9DjHq
+2018-05-07 10:36:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsx9DjHq' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib'
+2018-05-07 10:36:51 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib: replacing existing signature
+2018-05-07 10:36:51 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib: signed Mach-O universal (armv7 armv7s arm64) [com.apple.dt.runtime.swiftos]
+2018-05-07 10:36:51 +0000  2018-05-07 10:36:51 +0000  
+
+2018-05-07 10:36:51 +0000  /usr/bin/codesign exited with 0
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  Entitlements for <IDEDistributionItem: 0x7fbffc290f80 'jg.pi4HomeApp' '<DVTFilePath:0x7fbffbd266b0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app'>'>: {
+    "application-identifier" = "5ES55SHH2E.jg.pi4HomeApp";
+    "beta-reports-active" = 1;
+    "com.apple.developer.team-identifier" = 5ES55SHH2E;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "5ES55SHH2E.jg.pi4HomeApp"
+    );
+}
+2018-05-07 10:36:51 +0000  Writing entitlements for <IDEDistributionItem: 0x7fbffc290f80 'jg.pi4HomeApp' '<DVTFilePath:0x7fbffbd266b0:'/Users/josefgrinspun/Library/Developer/Xcode/Archives/2018-05-07/pi4HomeApp 07.05.18, 12.32.xcarchive/Products/Applications/pi4HomeApp.app'>'> to: /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsPv3jCM
+2018-05-07 10:36:51 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'DF6F9C5973270E2A1AEEEC37048363B8F2DE8587' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/entitlementsPv3jCM' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app'
+2018-05-07 10:36:51 +0000  /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root/Payload/pi4HomeApp.app: signed app bundle with Mach-O thin (arm64) [jg.pi4HomeApp]
+2018-05-07 10:36:51 +0000  2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  /usr/bin/codesign exited with 0
+
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-05-07 10:36:51 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-05-07 10:36:51 +0000  Running /usr/bin/rsync '-8aPhhE' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Symbols' '--link-dest' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root'
+2018-05-07 10:36:51 +0000  building file list ... 
+2018-05-07 10:36:51 +0000   0 files...2018-05-07 10:36:51 +0000  37 files to consider
+2018-05-07 10:36:51 +0000  Symbols/
+2018-05-07 10:36:51 +0000  
+2018-05-07 10:36:51 +0000  sent 2.00K bytes  received 26 bytes  4.04K bytes/sec
+total size is 15.28M  speedup is 7740.09
+2018-05-07 10:36:51 +0000  2018-05-07 10:36:51 +0000  /usr/bin/rsync exited with 0
+2018-05-07 10:36:51 +0000  
+
+2018-05-07 10:36:51 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root' '/var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Packages/pi4HomeApp.ipa'
+2018-05-07 10:36:51 +0000  >>> Copying /var/folders/v_/lm4_7vkx19j8z0jrq5fdjthw0000gn/T/XcodeDistPipeline.Fx1/Root 
+2018-05-07 10:36:51 +0000  copying file ./BCSymbolMaps/0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap ... 
+2018-05-07 10:36:51 +0000  305933 bytes for ./BCSymbolMaps/0A536694-0BEE-3E4B-97E3-A9370AB5E23F.bcsymbolmap
+copying file ./BCSymbolMaps/723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap ... 
+2018-05-07 10:36:51 +0000  19588 bytes for ./BCSymbolMaps/723A50D5-5A9B-3E87-B16F-F018DFB66D99.bcsymbolmap
+2018-05-07 10:36:51 +0000  copying file ./Payload/pi4HomeApp.app/_CodeSignature/CodeResources ... 
+2018-05-07 10:36:51 +0000  10021 bytes for ./Payload/pi4HomeApp.app/_CodeSignature/CodeResources
+copying file ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-05-07 10:36:51 +0000  982 bytes for ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+copying file ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib ... 
+2018-05-07 10:36:51 +0000  5865 bytes for ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib
+copying file ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2018-05-07 10:36:51 +0000  258 bytes for ./Payload/pi4HomeApp.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-05-07 10:36:51 +0000  6159 bytes for ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2018-05-07 10:36:51 +0000  832 bytes for ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+258 bytes for ./Payload/pi4HomeApp.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+copying file ./Payload/pi4HomeApp.app/Assets.car ... 
+2018-05-07 10:36:51 +0000  31144 bytes for ./Payload/pi4HomeApp.app/Assets.car
+copying file ./Payload/pi4HomeApp.app/pi4HomeApp ... 
+2018-05-07 10:36:51 +0000  174992 bytes for ./Payload/pi4HomeApp.app/pi4HomeApp
+2018-05-07 10:36:51 +0000  copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib ... 
+2018-05-07 10:36:51 +0000  307984 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreImage.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib ... 
+2018-05-07 10:36:51 +0000  554448 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftObjectiveC.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib ... 
+2018-05-07 10:36:53 +0000  66629920 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftCore.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib ... 
+2018-05-07 10:36:53 +0000  1628912 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreGraphics.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib ... 
+2018-05-07 10:36:53 +0000  1043376 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftUIKit.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib ... 
+2018-05-07 10:36:53 +0000  449248 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftMetal.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib ... 
+2018-05-07 10:36:54 +0000  2722656 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftDispatch.dylib
+2018-05-07 10:36:54 +0000  copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib ... 
+2018-05-07 10:36:54 +0000  497504 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftos.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib ... 
+2018-05-07 10:36:54 +0000  258096 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftCoreFoundation.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib ... 
+2018-05-07 10:36:54 +0000  839088 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftDarwin.dylib
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib ... 
+2018-05-07 10:36:54 +0000  310960 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftQuartzCore.dylib
+2018-05-07 10:36:54 +0000  copying file ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources ... 
+2202 bytes for ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/_CodeSignature/CodeResources
+copying file ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/Alamofire ... 
+2018-05-07 10:36:54 +0000  2537360 bytes for ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/Alamofire
+copying file ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/Info.plist ... 
+2018-05-07 10:36:54 +0000  740 bytes for ./Payload/pi4HomeApp.app/Frameworks/Alamofire.framework/Info.plist
+copying file ./Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib ... 
+2018-05-07 10:36:55 +0000  30131744 bytes for ./Payload/pi4HomeApp.app/Frameworks/libswiftFoundation.dylib
+2018-05-07 10:36:55 +0000  copying file ./Payload/pi4HomeApp.app/embedded.mobileprovision ... 
+7499 bytes for ./Payload/pi4HomeApp.app/embedded.mobileprovision
+copying file ./Payload/pi4HomeApp.app/Info.plist ... 
+1105 bytes for ./Payload/pi4HomeApp.app/Info.plist
+copying file ./Payload/pi4HomeApp.app/PkgInfo ... 
+8 bytes for ./Payload/pi4HomeApp.app/PkgInfo
+copying file ./SwiftSupport/iphoneos/libswiftCoreImage.dylib ... 
+307520 bytes for ./SwiftSupport/iphoneos/libswiftCoreImage.dylib
+copying file ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib ... 
+2018-05-07 10:36:55 +0000  553984 bytes for ./SwiftSupport/iphoneos/libswiftObjectiveC.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCore.dylib ... 
+2018-05-07 10:36:57 +0000  66629456 bytes for ./SwiftSupport/iphoneos/libswiftCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib ... 
+2018-05-07 10:36:57 +0000  1628432 bytes for ./SwiftSupport/iphoneos/libswiftCoreGraphics.dylib
+copying file ./SwiftSupport/iphoneos/libswiftUIKit.dylib ... 
+2018-05-07 10:36:57 +0000  1042912 bytes for ./SwiftSupport/iphoneos/libswiftUIKit.dylib
+copying file ./SwiftSupport/iphoneos/libswiftMetal.dylib ... 
+2018-05-07 10:36:57 +0000  448768 bytes for ./SwiftSupport/iphoneos/libswiftMetal.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDispatch.dylib ... 
+2018-05-07 10:36:57 +0000  2722176 bytes for ./SwiftSupport/iphoneos/libswiftDispatch.dylib
+copying file ./SwiftSupport/iphoneos/libswiftos.dylib ... 
+2018-05-07 10:36:57 +0000  497040 bytes for ./SwiftSupport/iphoneos/libswiftos.dylib
+copying file ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib ... 
+2018-05-07 10:36:57 +0000  257616 bytes for ./SwiftSupport/iphoneos/libswiftCoreFoundation.dylib
+copying file ./SwiftSupport/iphoneos/libswiftDarwin.dylib ... 
+2018-05-07 10:36:57 +0000  838608 bytes for ./SwiftSupport/iphoneos/libswiftDarwin.dylib
+copying file ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib ... 
+2018-05-07 10:36:57 +0000  310496 bytes for ./SwiftSupport/iphoneos/libswiftQuartzCore.dylib
+copying file ./SwiftSupport/iphoneos/libswiftFoundation.dylib ... 
+2018-05-07 10:36:58 +0000  30131264 bytes for ./SwiftSupport/iphoneos/libswiftFoundation.dylib
+2018-05-07 10:36:58 +0000  copying file ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols ... 
+2368 bytes for ./Symbols/DCFD7479-6F7F-3200-AF77-BF3EBA498355.symbols
+copying file ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols ... 
+13208 bytes for ./Symbols/52EBEF45-5DF1-317D-8310-F05CEE9ED74D.symbols
+copying file ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols ... 
+6592 bytes for ./Symbols/823D89E9-5018-3004-B07A-8385380D65C7.symbols
+copying file ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols ... 
+43960 bytes for ./Symbols/6E35C3D1-15C2-316C-87B3-DDA8AF5F1D72.symbols
+copying file ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols ... 
+2472 bytes for ./Symbols/81F66E04-BAB1-33FE-B336-9B4162A68AFC.symbols
+copying file ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols ... 
+21552 bytes for ./Symbols/CACBF3AE-8ABB-362C-B85E-1BFC5879DDF8.symbols
+copying file ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols ... 
+2018-05-07 10:36:59 +0000  3348520 bytes for ./Symbols/99FE325C-BA6F-32B8-80AF-4F65D3411517.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols ... 
+44536 bytes for ./Symbols/A8918F61-41B8-31F7-8310-248489B980D5.symbols
+copying file ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols ... 
+12952 bytes for ./Symbols/5C914A0C-CE08-38DE-8250-E6896D037E6A.symbols
+copying file ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols ... 
+2018-05-07 10:36:59 +0000  103104 bytes for ./Symbols/51BCAE24-E868-3046-B714-A4DC8AD58AE4.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols ... 
+2018-05-07 10:36:59 +0000  223640 bytes for ./Symbols/B6FA4187-E4D5-3312-9FAC-8A7793454110.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols ... 
+2018-05-07 10:36:59 +0000  21552 bytes for ./Symbols/901FAE5E-9E96-37BC-B743-01B3B63E235D.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols ... 
+6592 bytes for ./Symbols/E3FAAA76-0D12-35BA-92BA-2D22987F0638.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols ... 
+2728 bytes for ./Symbols/39B93A13-DBC8-3E0C-A1B3-35FABA5480B1.symbols
+copying file ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols ... 
+2018-05-07 10:36:59 +0000  21592 bytes for ./Symbols/8ED77568-C9ED-3229-BA7A-6B0D92719402.symbols
+copying file ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols ... 
+2018-05-07 10:36:59 +0000  3347936 bytes for ./Symbols/84C6189D-14AC-327A-AD00-F813181D2BD1.symbols
+copying file ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols ... 
+2018-05-07 10:36:59 +0000  6928 bytes for ./Symbols/966DDD4D-8A03-3041-9D42-A37268354104.symbols
+copying file ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols ... 
+2018-05-07 10:36:59 +0000  102384 bytes for ./Symbols/F1F2287F-B515-3A28-BEEA-12EC2D547BF8.symbols
+copying file ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols ... 
+2018-05-07 10:36:59 +0000  60328 bytes for ./Symbols/F8DBDC31-7EB7-3A35-AC52-2490830DDBD4.symbols
+copying file ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols ... 
+2018-05-07 10:36:59 +0000  13208 bytes for ./Symbols/DBD251FE-2608-3963-A0A0-D8A86EB64E0C.symbols
+copying file ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols ... 
+2018-05-07 10:36:59 +0000  2816 bytes for ./Symbols/9433FC53-F726-30DC-8C53-851703DD440B.symbols
+copying file ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols ... 
+2018-05-07 10:36:59 +0000  60000 bytes for ./Symbols/1194F495-00EA-38CB-BCBA-E0EF1A3B0D14.symbols
+copying file ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols ... 
+2018-05-07 10:36:59 +0000  1510736 bytes for ./Symbols/844914D5-7322-3A0B-95E1-1B380BE9D18B.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols ... 
+2018-05-07 10:36:59 +0000  13120 bytes for ./Symbols/402FD36F-3025-37FF-93CD-C58DCA7ED35D.symbols
+copying file ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols ... 
+2018-05-07 10:36:59 +0000  2368 bytes for ./Symbols/CA49E7B9-407C-3436-9E71-1BD96983265C.symbols
+copying file ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols ... 
+2018-05-07 10:36:59 +0000  2728 bytes for ./Symbols/8AEF7D3A-C8E4-3618-A204-14353E0A88FB.symbols
+copying file ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols ... 
+2018-05-07 10:36:59 +0000  12952 bytes for ./Symbols/93D62379-9897-3127-BFD3-526BB4013E5F.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols ... 
+2018-05-07 10:36:59 +0000  12760 bytes for ./Symbols/31302350-F2A9-398B-9DB7-89AF41C9F6C8.symbols
+copying file ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols ... 
+2018-05-07 10:36:59 +0000  103176 bytes for ./Symbols/3A18E7ED-93D3-385A-968F-4EB382A46370.symbols
+copying file ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols ... 
+2018-05-07 10:36:59 +0000  3329432 bytes for ./Symbols/3DB343D4-7102-3B33-8565-DF200CC0197E.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols ... 
+2018-05-07 10:36:59 +0000  221720 bytes for ./Symbols/E82A7F82-30CF-326A-B53A-424CF8E39570.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols ... 
+2018-05-07 10:36:59 +0000  44536 bytes for ./Symbols/83D74E0A-99F2-3658-A591-F4ABBD60C578.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols ... 
+2018-05-07 10:36:59 +0000  1504856 bytes for ./Symbols/39002AAF-2C42-3487-80AB-6EBA82C171E1.symbols
+copying file ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols ... 
+2018-05-07 10:36:59 +0000  1510592 bytes for ./Symbols/ED0A87D8-337C-3482-8319-4442A2EC42BF.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols ... 
+2018-05-07 10:36:59 +0000  60328 bytes for ./Symbols/9B2B8FE3-E073-3684-A26F-B8CBB8A7C9AE.symbols
+2018-05-07 10:36:59 +0000  copying file ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols ... 
+2018-05-07 10:36:59 +0000  223712 bytes for ./Symbols/9E1FC0B9-5A61-3A1D-98D5-BAC795B97779.symbols
+2018-05-07 10:36:59 +0000  2018-05-07 10:36:59 +0000  
+
+2018-05-07 10:36:59 +0000  /usr/bin/ditto exited with 0
+2018-05-07 10:36:59 +0000  
+2018-05-07 10:36:59 +0000  
+2018-05-07 10:36:59 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-05-07 10:36:59 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
