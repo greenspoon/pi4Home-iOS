@@ -10,10 +10,16 @@ import UIKit
 import Alamofire
 import SwiftSH
 
+extension Notification.Name {
+	
+}
+
 class PI4HomeService {
 
 	static let sharedInstance:PI4HomeService = PI4HomeService()
 	
+	static let AvailabilityCheckFinishedNotificationName = Notification.Name("AvailabilityCheckFinished")
+	static let AvailabilityCheckStartedNotificationName = Notification.Name("AvailabilityCheckStarted")
 	let baseURL = URL(string: "http://192.168.2.108:8989")!
 	
 	enum PIShutterAction:String {
@@ -22,22 +28,18 @@ class PI4HomeService {
 		case stop = "/stop"
 	}
 	
-	
 	typealias RequestCompletion = (Bool,String)->()
 	
-	func startServer() {
-		guard let command = Command(host: baseURL.absoluteString, port: 22) else {return}
-		
-//		command.connect()
-//				.authenticate(.byPassword(username: "root", password: "jo1991seF"))
-//		command.
-		
-		
-		
-	}
+	typealias Response = (success:Bool, msg:String)
 	
-	func isAvailable(_ completion:@escaping RequestCompletion ) {
-		self.sendGETRequestToRelativeURL(relativeURLPathString: "", completion: completion)
+	func checkIfAvailable() {
+		NotificationCenter.default.post(name: PI4HomeService.AvailabilityCheckStartedNotificationName , object: nil)
+		self.sendGETRequestToRelativeURL(relativeURLPathString: "", completion: { (success,msg) in
+			DispatchQueue.main.async {
+				
+				NotificationCenter.default.post(name: PI4HomeService.AvailabilityCheckFinishedNotificationName , object: nil, userInfo: ["response": Response(success, msg)])
+			}
+		})
 	}
 	
 	func executeShutterAction(action:PIShutterAction,_ completion:@escaping RequestCompletion) {

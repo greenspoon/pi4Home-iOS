@@ -16,9 +16,7 @@ class MenuItemFactory: Any {
 	
 	func getMenuItems() -> [MenuItem] {
 		let refreshItem = MenuItem(title: "Refresh Connection" , image: #imageLiteral(resourceName: "Compound Path_1"), {
-			PI4HomeService.sharedInstance.isAvailable({ (isAvailable, msg) in
-				
-			})
+			PI4HomeService.sharedInstance.checkIfAvailable()
 		})
 		
 		let settingsItem = MenuItem(title: "Settings", image: #imageLiteral(resourceName: "Compound Path_2")) {
