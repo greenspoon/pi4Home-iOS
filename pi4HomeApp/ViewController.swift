@@ -19,12 +19,12 @@ class ContainerCellPageFactory {
 	static let SettingsPageIndex = 1
 	
 	static func getPageModels() -> [PageModel] {
-		return [PageModel(pageName: "ControllsPage", controlsEnabled: true),
+		return [PageModel(pageName: "ControlsPage", controlsEnabled: true),
 				PageModel(pageName: "SettingsPage", controlsEnabled: true)]
 	}
 }
 
-class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, ControlerDelegate {
+class ViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout, ControllerCellDelegate {
 	
 	@IBOutlet weak var activityIndicator: UIActivityIndicatorView!
 	
@@ -41,20 +41,25 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
+		
 		pages[ContainerCellPageFactory.ControlsPageIndex].controlsEnabled = false
 		activityIndicator.isHidden = true
 
 		self.collectionView.delegate = self
 		self.collectionView.dataSource = self
 		self.collectionView.isPagingEnabled = true
+		
 		pageControl.numberOfPages = pages.count
-		UIApplication.shared.statusBarStyle = .lightContent
 		collectionView.showsHorizontalScrollIndicator = false
 		collectionView.showsVerticalScrollIndicator = false
 		
-		NotificationCenter.default.addObserver(self, selector: #selector(availabilityCheckFinished), name: PI4HomeService.AvailabilityCheckFinishedNotificationName, object: nil)
-		NotificationCenter.default.addObserver(self, selector: #selector(availabilityCheckStarted), name: PI4HomeService.AvailabilityCheckStartedNotificationName, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(willFireRequestNotification), name: PI4HomeService.WillFireRequestNotificationName, object: nil)
+		NotificationCenter.default.addObserver(self, selector: #selector(didReceivedResponseNotification), name: PI4HomeService.DidReceivedResponseNotificationName, object: nil)
 		PI4HomeService.sharedInstance.checkIfAvailable()
+	}
+	
+	override var preferredStatusBarStyle: UIStatusBarStyle {
+		return .lightContent
 	}
 
 	@IBAction func menuButtonTapped(_ sender: Any) {
@@ -103,13 +108,15 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 	
 	//MARK: - Notification Handling
 	
-	@objc private func availabilityCheckStarted(notification: Notification) {
+	@objc private func willFireRequestNotification(notification: Notification) {
 		activityIndicator.isHidden = false
 		activityIndicator.startAnimating()
 		infoLabel.isHidden = true
+		pages[ContainerCellPageFactory.ControlsPageIndex].controlsEnabled = false
+		collectionView.reloadData()
 	}
 	
-	@objc private func availabilityCheckFinished(notification: Notification) {
+	@objc private func didReceivedResponseNotification(notification: Notification) {
 		guard let response = notification.userInfo?["response"] as? PI4HomeService.Response else {return}
 		
 		activityIndicator.stopAnimating()
@@ -121,6 +128,8 @@ class ViewController: UIViewController, UICollectionViewDataSource, UICollection
 		}
 		infoLabel.text = response.msg
 	}
+	
+	//MARK: - ControllerCellDelegate
 	
 	func actionTriggered(action: PI4HomeService.PIShutterAction) {
 		weak var weakSelf = self

@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol ControlerDelegate {
+protocol ControllerCellDelegate {
 	func actionTriggered(action: PI4HomeService.PIShutterAction)
 }
 
 class ControlerCollectionViewCell: UICollectionViewCell {
 
-	var delegate: ControlerDelegate?
+	var delegate: ControllerCellDelegate?
 	
 	@IBOutlet weak var upArrowButton: UIButton!
 	@IBOutlet weak var stopArrowButton: UIButton!
@@ -22,6 +22,7 @@ class ControlerCollectionViewCell: UICollectionViewCell {
 	
 	override func awakeFromNib() {
 		super.awakeFromNib()
+		
 	}
 	
 	func configure(model: PageModel) {
@@ -29,9 +30,8 @@ class ControlerCollectionViewCell: UICollectionViewCell {
 	}
 	
 	private func setButtons(enabled:Bool) {
-		upArrowButton.isEnabled = enabled
-		downArrowButton.isEnabled = enabled
-		stopArrowButton.isEnabled = enabled
+		self.isUserInteractionEnabled = enabled
+		[upArrowButton, downArrowButton, stopArrowButton].forEach{$0?.alpha = enabled ? 1.0 : 0.5 }
 	}
 	
 	@IBAction func upArrowButtonTapped(_ sender: Any) {

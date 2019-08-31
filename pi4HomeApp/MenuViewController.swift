@@ -21,12 +21,12 @@ class MenuViewController: UIViewController, UITableViewDataSource, UITableViewDe
 	
 	override func viewDidLoad() {
         super.viewDidLoad()
-		self.transparentView.alpha = 0
-		self.menuMainView.transform = CGAffineTransform(translationX: -self.menuMainView.frame.width, y: 0)
+		transparentView.alpha = 0
+		menuMainView.transform = CGAffineTransform(translationX: -self.menuMainView.frame.width, y: 0)
 		tableView.dataSource = self
 		tableView.delegate = self
 		transparentView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(transparentViewTapped)))
-		self.view.bringSubview(toFront: menuMainView)
+		view.bringSubviewToFront(menuMainView)
 		
 		versionLabel.text = "Version \(Bundle.main.versionString())"
     }
